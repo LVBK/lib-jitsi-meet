@@ -2,10 +2,10 @@
 
 var options = {
     hosts: {
-        domain: 'jitsi-meet.example.com',
-        muc: 'conference.jitsi-meet.example.com', // FIXME: use XEP-0030
+        domain: 'video-chat.owslab.io',
+        muc: 'conference.video-chat.owslab.io', // FIXME: use XEP-0030
     },
-    bosh: '//jitsi-meet.example.com/http-bind', // FIXME: use xep-0156 for that
+    bosh: '//video-chat.owslab.io/http-bind', // FIXME: use xep-0156 for that
     clientNode: 'http://jitsi.org/jitsimeet', // The name of client node advertised in XEP-0115 'c' stanza
 };
 
